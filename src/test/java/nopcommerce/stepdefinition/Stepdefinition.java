@@ -52,10 +52,10 @@ public class Stepdefinition
 		
 //chrome		
 // 		System.setProperty("webdriver.chrome.driver","D:\\chromedriver.exe");
-// 		System.setProperty("webdriver.chrome.driver", "C://Users//tsesetti//Downloads//chromedriver_win32 (8)//chromedriver.exe");
-// 		driver = new ChromeDriver();
-// 		System.out.println("user is on browser");
-// 		driver.manage().window().maximize();
+		System.setProperty("webdriver.chrome.driver","C:\Users\tsesetti\Downloads\chromedriver_win32 (8)\chromedriver.exe");
+		driver = new ChromeDriver();
+		System.out.println("user is on browser");
+		driver.manage().window().maximize();
 			
 //firefox		
 //		System.setProperty("webdriver.gecko.driver","D:\\geckodriver.exe");
@@ -64,10 +64,10 @@ public class Stepdefinition
 //		driver.manage().window().maximize();
 		
 //edgedriver
-		System.setProperty("webdriver.edge.driver","D:\\msedgedriver.exe");
-		System.out.println("user is on browser");
-		driver = new EdgeDriver();
-		driver.manage().window().maximize();	
+// 		System.setProperty("webdriver.edge.driver","D:\\msedgedriver.exe");
+// 		System.out.println("user is on browser");
+// 		driver = new EdgeDriver();
+// 		driver.manage().window().maximize();	
 		
 		
 		
