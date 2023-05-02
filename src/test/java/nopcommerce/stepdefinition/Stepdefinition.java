@@ -51,8 +51,7 @@ public class Stepdefinition
 		ScreenRecorderUtil.startRecord("open_the_browser");	
 		
 //chrome		
-// 		System.setProperty("webdriver.chrome.driver","D:\\chromedriver.exe");
-		System.setProperty("webdriver.chrome.driver", "C://Users//tsesetti//Downloads//chromedriver_win32 (5)//chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver","C://Users//tsesetti//Downloads//chromedriver_win32 (5)//chromedriver.exe");
 		driver = new ChromeDriver();
 		System.out.println("user is on browser");
 		driver.manage().window().maximize();
