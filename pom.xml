@@ -38,13 +38,13 @@
 <artifactId>commons-io</artifactId>
 <version>2.11.0</version>
 </dependency>
- <dependency>
+<dependency>
 <groupId>io.cucumber</groupId>
 <artifactId>cucumber-java</artifactId>
 <version>7.8.1</version>
 </dependency>
 <!-- https://mvnrepository.com/artifact/io.cucumber/cucumber-junit -->
- <dependency>
+<dependency>
 <groupId>io.cucumber</groupId>
 <artifactId>cucumber-junit</artifactId>
 <version>7.8.1</version>
@@ -97,7 +97,7 @@
 <version>7.6.0</version>
 <scope>test</scope>
 </dependency>
-<dependency> -->
+<dependency>
 		<groupId>org.testng</groupId>
 		<artifactId>testng</artifactId>
 		<version>7.0.0-beta1</version>
@@ -123,4 +123,5 @@
 <version>1.1.0-JAVA7</version>
 </dependency>
 </dependencies>
+</project>
 </project>
