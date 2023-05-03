@@ -42,13 +42,6 @@
 <version>7.6.0</version>
 <scope>test</scope>
 </dependency>
-<dependency> 
-		<groupId>org.testng</groupId>
-		<artifactId>testng</artifactId>
-		<version>7.0.0-beta1</version>
-		<scope>test</scope>
-	</dependency>
-	<!-- https://mvnrepository.com/artifact/io.github.bonigarcia/webdrivermanager -->
 <dependency>
     <groupId>io.github.bonigarcia</groupId>
     <artifactId>webdrivermanager</artifactId>
